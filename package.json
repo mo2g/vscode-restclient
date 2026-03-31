@@ -747,7 +747,7 @@
     "@types/js-yaml": "^4.0.5",
     "mime-types": "^2.1.14",
     "node-fetch": "^2.6.7",
-    "jws": "^4.0.0",
+    "jws": "^4.0.1",
     "open": "^10.1.0",
     "pretty-data": "^0.40.0",
     "sanitize-html": "^2.13.0",
