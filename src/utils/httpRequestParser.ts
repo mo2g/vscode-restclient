@@ -119,7 +119,7 @@ export class HttpRequestParser implements RequestParser {
                     }
                 }
                 body = encodedStringPairs.join('&');
-                
+
                 // Force the content-type to be application/x-www-form-urlencoded if it was converted
                 const contentTypeKey = Object.keys(headers).find(k => k.toLowerCase() === 'content-type');
                 if (contentTypeKey) {

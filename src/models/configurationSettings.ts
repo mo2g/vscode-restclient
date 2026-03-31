@@ -320,7 +320,7 @@ export class RequestSettings implements Partial<IRestClientSettings> {
     private _followRedirect?: boolean = undefined;
 
     private _rememberCookiesForSubsequentRequests?: boolean = undefined;
-    
+
     private _jsonToForm?: boolean = undefined;
 
     public get followRedirect() {
